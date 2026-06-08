@@ -1,4 +1,4 @@
-# 🍕 SliceCraft — Premium Pizza Ordering & Customization Platform
+#  SliceCraft — Premium Pizza Ordering & Customization Platform
 
 A production-grade full-stack web application for pizza ordering, featuring a real-time pizza customization engine, JWT authentication, admin dashboard with analytics, and mock payment processing.
 
@@ -24,21 +24,21 @@ A production-grade full-stack web application for pizza ordering, featuring a re
 ## Features
 
 ### User Features
-- 🔐 JWT Authentication (Register, Login, Email Verification, Password Reset)
-- 🍕 Browse 25 premium pizzas across 6 categories
-- 🎨 **7-Step Pizza Customizer** with live SVG preview & instant pricing
-- 🛒 Full Cart System with coupon support
-- 💳 Mock Checkout (UPI, Card, Cash on Delivery)
-- 📦 Order Tracking with visual timeline
-- ⭐ Review & Rating System
-- 👤 User Profile with order history & reordering
+-  JWT Authentication (Register, Login, Email Verification, Password Reset)
+-  Browse 25 premium pizzas across 6 categories
+-  **7-Step Pizza Customizer** with live SVG preview & instant pricing
+-  Full Cart System with coupon support
+-  Mock Checkout (UPI, Card, Cash on Delivery)
+-  Order Tracking with visual timeline
+-  Review & Rating System
+-  User Profile with order history & reordering
 
 ### Admin Features
-- 📊 Analytics Dashboard (Revenue, Orders, Conversion, Charts)
-- 🍕 Pizza Management (CRUD)
-- 🏷️ Offer & Coupon Management
-- 📋 Order Management with status updates
-- 👥 User Management (View, Block, Delete)
+-  Analytics Dashboard (Revenue, Orders, Conversion, Charts)
+-  Pizza Management (CRUD)
+-  Offer & Coupon Management
+-  Order Management with status updates
+-  User Management (View, Block, Delete)
 
 ## Getting Started
 
