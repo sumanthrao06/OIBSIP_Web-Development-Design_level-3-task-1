@@ -2,24 +2,34 @@
 
 A production-grade full-stack web application for pizza ordering, featuring a real-time pizza customization engine, JWT authentication, admin dashboard with analytics, and mock payment processing.
 
-## Tech Stack
+---
 
-### Frontend
-- **React 19** with Vite 6
-- **Tailwind CSS** for styling
-- **Redux Toolkit** for state management
-- **React Router** for routing
-- **Framer Motion** for animations
-- **React Hook Form** for form handling
-- **Recharts** for admin analytics charts
-- **Axios** for HTTP requests
+## 🎯 Project Overview
 
-### Backend
-- **Node.js** with Express.js
-- **MongoDB** with Mongoose ODM
-- **JWT** for authentication (Access + Refresh tokens)
-- **Nodemailer** for email (console fallback in dev)
-- **Helmet, CORS, Rate Limiting** for security
+### 1. Objective
+To build an elegant, highly performant, and production-grade food-ordering system inspired by Pizza Hut's UX, but with a completely original, premium design aesthetic. The platform aims to provide a seamless user customizer engine and a robust administrative control panel to manage sales, menu items, orders, and promotions.
+
+### 2. Steps Performed
+1. **Database & Schema Design**: Designed robust MongoDB schemas using Mongoose for users, pizzas, reviews, coupons, favorites, shopping carts, and orders.
+2. **Backend Development**: Implemented security-hardened API endpoints (CORS, Helmet, Rate-Limiters) with double-token JWT Authentication and console email verification logging.
+3. **Database Seeding**: Created a custom database seeder script populating 25 pizzas across 6 categories, default accounts, active promo coupons, and mock order records.
+4. **Redux Store Integration**: Configured Redux Toolkit for state synchronization across user sessions, shopping cart updates, and interactive customizer states.
+5. **Interactive Customizer**: Developed a 7-step customizable pizza builder featuring dynamic pricing calculators and interactive SVG layers (cheese levels, sauce spread, quadrant topping mapping).
+6. **Frontend Interface**: Engineered responsive user views (Landing, Pizza Details, Cart, Checkout, Order Tracking, Profiles) and a comprehensive admin portal showing live sales charts.
+7. **Verification**: Executed linting checks, production builds, and validation of Vite proxy mappings to backend ports.
+
+### 3. Tools & Technologies Used
+* **Frontend UI**: React 19, Vite 6, Tailwind CSS (Vanilla CSS structure), Framer Motion (micro-animations), Recharts (data visualization), React Hook Form, Axios.
+* **Backend API**: Node.js, Express.js, JWT (Token sign & verify), Bcrypt.js (password hashing).
+* **Database**: MongoDB (Local/Atlas), Mongoose ODM.
+* **Environment & Security**: Dotenv, Helmet, Express-Rate-Limit, CORS.
+
+### 4. Outcome
+* A fully working full-stack React and Express application running locally with Vite proxy integration.
+* Zero build compilation errors (successfully verified through production-build testing).
+* Preloaded database with mock configurations allowing instant checkout, customization, profile updates, and admin analytical oversight.
+
+---
 
 ## Features
 
