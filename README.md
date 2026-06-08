@@ -138,6 +138,4 @@ npm run dev
 
 - Users, Pizzas, Offers, Orders, Coupons, Reviews, Cart, Favorites
 
-## License
 
-This project is built for portfolio and educational purposes.
